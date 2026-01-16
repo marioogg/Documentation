@@ -12,14 +12,16 @@ export interface Product {
 export const products: Product[] = [
     {
         title: "Phoenix",
-        description: "The ultimate network management suite for security, ranks, and staff tools.",
+        // description: "The ultimate network management suite for security, ranks, and staff tools.",
+        description: "La suite definitiva de manejo de seguridad, rangos y utilidades del staff.",
         href: "/Phoenix/Introduction",
         colorClass: "bg-primary",
         icon: faShield,
     },
     {
         title: "Bolt",
-        description: "High-performance PvP practice plugin with advanced ELO and match tracking.",
+        //description: "High-performance PvP practice plugin with advanced ELO and match tracking.",
+        description: "Plugin de práctica PvP con sistemas ELO avanzado y seguimiento de partidas.",
         href: "/Bolt/Introduction",
         colorClass: "bg-primary",
         icon: faBolt,
